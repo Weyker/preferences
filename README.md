@@ -23,10 +23,6 @@ This will work because `Product` is a subclass of `ActiveRecord::Base`. If found
 
 As another example, you might want to add preferences for users to manage their notification settings. Just make sure your `User` model inherits from `ActiveRecord::Base` then add the `preferences` column. You'll then be able to define preferences for `User`s without adding extra columns to the database table.
 
-Extensions may add to the Spree General Settings or create their own namespaced preferences.
-
-The first several sections of this guide describe preferences in a very general way. If you're just interested in making modifications to the existing preferences, you can skip ahead to the [Configuring Spree Preferences section](#configuring-spree-preferences). If you would like a more in-depth understanding of the underlying concepts used by the preference system, please read on.
-
 ### Motivation
 
 Preferences for models within an application are very common. Although the rule of thumb is to keep the number of preferences available to a minimum, sometimes it's necessary if you want users to have optional preferences like disabling e-mail notifications.
