@@ -1,6 +1,9 @@
 require 'rails'
 
 module Preferences
+  autoload :Preferable, 'preferences/preferable'
+  autoload :PreferableClassMethods, 'preferences/preferable_class_methods'
+  
   module Models
     autoload :PreferenceObject, 'preferences/models/preferences_object'
   end
