@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = 'preferences'
   s.version     = Preferences::VERSION
   s.authors     = ['Patricio Beckmann']
-  s.email       = ['pato.beckmann@gmail.coml']
+  s.email       = ['pato.beckmann@gmail.com']
   s.license     = 'MIT'
 
   s.summary     = 'Abstraction of Spree Preferences'
