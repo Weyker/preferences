@@ -10,7 +10,7 @@
 #
 #   # ActiveRecord::Base includes Preferable and defines preferences as a serialized
 #   # column.
-#   class Settings < Spree::Base
+#   class Settings < ActiveRecord::Base
 #     preference :color,       :string,  default: 'red'
 #     preference :temperature, :integer, default: 21
 #   end
