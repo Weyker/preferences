@@ -1,10 +1,6 @@
-module Preferences
-  class Engine < ::Rails::Engine
-    config.preferences = Preferences
-  end
-end
+module Preferences::Decorators::Base
+  extend ActiveSupport::Concern
 
-ActiveRecord::Base.class_eval do
   include Preferences::Preferable
   serialize :preferences, Hash
 
